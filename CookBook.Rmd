@@ -3,11 +3,13 @@ title: "CookBook.Rmd"
 output: html_document
 ---
 
-This code book describes a project focused upon producing a tidy data set that describes the mean by activity and subject of all the mean and standard deviation observations recorded in the data sets provided at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. In this CookBook book we describes the variables, the data, and the work that was performed to clean up the data and ultimately produce our tidy dataset.
+This code book describes a project accomplished for the Coursera class on Getting and Cleaning Data. The focus of the project was on producing a tidy data set that describes the mean by activity and subject of all the mean and standard deviation observations recorded in the data sets provided at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. In this CookBook I describe the variables, the data in the tidy dataset, and the work that was performed to clean up the data and ultimately produce the resultant tidy dataset.
 
 # Source Data
 
-Using the dataset located at :https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip I have read the train and test datasets. The code snippet below shows the parts of the source data used for this exercise.
+Using the dataset located at : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip I have read the train and test datasets. A full description of the project that produced this dataset is available at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The code snippet below shows the parts of the source data used for this exercise.
 
 ```{r}
 
@@ -172,7 +174,7 @@ In order to produce the final tidy dataset - I named all the columns in the mean
 
 # Tidy Dataset creation
 
-Finally I wrote the dataset to a file named: MeansBySubjectAndActivity.txt which the script will put in your current working directory at the successful completion of it. The snippet below demonstrates the write.file() used to produce the final tidy dataset.
+Finally I wrote the dataset to a file named: *MeansBySubjectAndActivity.txt* which the script will put in your current working directory at the successful completion of it. The snippet below demonstrates the write.file() used to produce the final tidy dataset.
 
 ```{r}
 
