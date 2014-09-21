@@ -1,8 +1,17 @@
 ##
-## Determine the best hospital in a state related to outcomes for a specified
-## health problem
-##
-## the input is state and outcome (issue being investigated)
+## 
+## This script builds a tidy dataset by performing the following highlevel steps:
+##   1. Merges the training and the test sets to create one data set.
+##   2. Extracts only the measurements on the mean and standard deviation for each 
+##      measurement from the one data set produced in step 1. 
+##   3. Uses descriptive activity names to name the activities in the data set
+##   4. Appropriately labels the data set with descriptive variable names. 
+##   5. From the data set in step 4, creates a second, independent tidy data set with 
+##      the average of each variable for each activity and each subject.
+## Input files from the below location are required:
+##   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+## 
+## Must be executed from the directory that is a parent to the UCI HAR Dataset directory.
 ##
 
 run_analysis <- function() {
