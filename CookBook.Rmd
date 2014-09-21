@@ -58,7 +58,7 @@ I combined them using `cbind()` and `rbind()` as follows in order to have a comp
 The table below shows the data that was identified as being either a mean or a standard deviation measurement. These I pulled from the source data (complete_data_set) and created a subset of the data.
 
 Column | Variable name
-------  ---------------------
+------ | ---------------------
 1  | tBodyAcc-mean()-X
 2 | tBodyAcc-mean()-Y
 3 | tBodyAcc-mean()-Z
