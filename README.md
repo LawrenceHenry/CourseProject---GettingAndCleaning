@@ -3,7 +3,7 @@ CourseProject---GettingAndCleaning
 
 Holds the Course Project for The Getting and Cleaning Data Coursera Course
 
-This repository holds the script (run\_analysis.R) that builds the tidydata file that corresponds to the CookBook.Rmd which describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
+This repository holds the script (run\_analysis.R) that builds the tidydata file that corresponds to the CookBook.Rmd which describes the variables, the data, and any transformations or work that was performed to clean up the data.
 
 You will need the raw data files located at the location specified by the URL below in order for the script to function.
 
